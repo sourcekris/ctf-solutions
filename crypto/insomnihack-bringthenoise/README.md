@@ -8,8 +8,7 @@ My solution was to simply split the coefficients in the input and iterate (again
 
 A good fit is anything that met > 30 of the 40 equations given to us by the server. This seemed to be good enough because my solution worked each time I tried it.
 
-Server code link: https://github.com/sourcekris/ctf-solutions/crypto/insomnihack-bringthenoise/server-bd6a6586808ab28325de37276aa99357.py
-Source link: https://github.com/sourcekris/ctf-solutions/crypto/insomnihack-bringthenoise/solve.py 
+See solve.py in this repo.
 
 Which, when run, results in the flag below:
 
