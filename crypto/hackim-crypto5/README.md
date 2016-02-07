@@ -1,18 +1,7 @@
-title: HackIM 2016 - Crypto 5 - 500 Point Challenge
-link: https://ctf.rip/hackim-2016-crypto-5/
-author: dacat
-description: 
-post_id: 538
-created: 2016/02/01 00:13:53
-created_gmt: 2016/02/01 00:13:53
-comment_status: open
-post_name: hackim-2016-crypto-5
-status: publish
-post_type: post
 
 # HackIM 2016 - Crypto 5 - 500 Point Challenge
 
-![crypto500clue](/wp-content/uploads/2016/01/crypto500clue.png) I don't really want to get into all of the commentary surrounding HackIM as a CTF. I do recommend if you're interested to know whether HackIM should even be rated on CTFTime [you should read the comments there](https://ctftime.org/event/285). I agree with the comments there for the most part. This was a 500 point challenge in the cryptography category. This one was interesting to me as it involved RSA public key encryption but I felt pretty deflated after solving it. The other cryptography questions were as simple as this and involved at maximum, brute forcing XOR ciphers to recover plaintext. The trick is that we have all of the public keys we need to try and open the file, we just need to find the 1 in 50 that works. That is done programatically with this script: 
+![crypto500clue](https://ctf.rip/wp-content/uploads/2016/01/crypto500clue.png) I don't really want to get into all of the commentary surrounding HackIM as a CTF. I do recommend if you're interested to know whether HackIM should even be rated on CTFTime [you should read the comments there](https://ctftime.org/event/285). I agree with the comments there for the most part. This was a 500 point challenge in the cryptography category. This one was interesting to me as it involved RSA public key encryption but I felt pretty deflated after solving it. The other cryptography questions were as simple as this and involved at maximum, brute forcing XOR ciphers to recover plaintext. The trick is that we have all of the public keys we need to try and open the file, we just need to find the 1 in 50 that works. That is done programatically with this script: 
     
     
     #!/usr/bin/python
