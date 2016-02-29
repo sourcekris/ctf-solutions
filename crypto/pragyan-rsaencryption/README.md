@@ -30,7 +30,7 @@ I used the libnum gcd() function but you can use the standard libary GCD functio
     >>> libnum.gcd(n1,n2)
     10217448931214694338056485232749303426398394639721270661250957562469575452791285994591928128667427053613383890906224746410843946303710562036668193362502553L
 
-Now that we’ve found one factor, we can simply calculate the other factor, find &phi; Didot.svg and then solve for d using modular inversion which is handily built into the libum library!
+Now that we’ve found one factor, we can simply calculate the other factor, find &phi; and then solve for d using modular inversion which is handily built into the libum library!
 
 Here’s my solution in Python:
 
