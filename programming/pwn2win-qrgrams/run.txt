@@ -1,0 +1,24 @@
+root@kali:~/pwn2win/programming/qrgrams# ./splitqrs.py 
+[+] Opening connection to pool.pwn2win.party on port 31337: Done
+[*] Downloading QR codes...
+[?] Decipher: irPxa si tno botua ou,pmecsrt 'its uaotb el.pope 10 36 
+[*] Searcing for possible words...
+[?] Deciphered: Pixar is not about computers, about people. 10 36
+[-] Phrase not right, let's try again !
+[+] Opening connection to pool.pwn2win.party on port 31337: Done
+[*] Downloading QR codes...
+[?] Decipher: If uyro mruoeptc akspes glnh,Eis ti saw oalpybbr emad in a.Jnap 20 18 
+[*] Searcing for possible words...
+[?] Deciphered: If your computer speaks English, it saw probably dame in Japan. 20 18
+[-] Phrase not right, let's try again !
+[+] Opening connection to pool.pwn2win.party on port 31337: Done
+[*] Downloading QR codes...
+[?] Decipher: euptrmCo eiesccn si eon fo eth rtsow shnigt that reev eppnadhe to ehtier morsutcpe or to necie.cs 21 26 
+[*] Searcing for possible words...
+[?] Deciphered: Computer science is eon of the trows nights that ever happened to either computers or to science. 21 26
+[-] Phrase not right, let's try again !
+[?] Decipher: I am ton a nmtsmcuoi dna rheient is hte nioovrtelaruy nm.ometev 39 14 
+[*] Searcing for possible words...
+[?] Deciphered: I am not a communist and neither is the revolutionary movement. 39 14
+[+] Flag:  Congrats, GENIUS! Your flag is CTF-BR{QRgramas_are_the_new_wave_of_codes,_dude!}
+
