@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE pov SYSTEM "/usr/share/cgc-docs/replay.dtd">
+<pov>
+    <cbid>service</cbid>
+    <replay>
+    <read><delim>\x0a</delim><match><data>----------------------------------------\x0a</data></match></read>
+    <read><delim>\x0a</delim><match><data>-          Simple Echo System          -\x0a</data></match></read>
+    <read><delim>\x0a</delim><match><data>----------------------------------------\x0a</data></match></read>
+    <read><delim>\x0a</delim><match><data>What is your name?\x0a</data></match></read>
+    <read><delim> </delim><match><data>name: </data></match></read>
+    <write><data>ADMIN\x0a</data></write>
+    <read><delim>: </delim><match><data>+ Gimme a key : </data></match></read>
+    <write><data>SHOW_ME_THE_M0N3Y_TURN_UP\x0a</data></write>
+    <read><delim>\x0a</delim><match><data>Welcome Admin :)\x0a</data></match></read>
+    <read><delim>: </delim><match><data>: </data></match></read>
+    <write><data>CK\x0a</data>
+    </write>
+    </replay>
+</pov>
